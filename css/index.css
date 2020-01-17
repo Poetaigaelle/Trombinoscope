@@ -1,0 +1,65 @@
+html, body{
+    background-color: rgb(92, 129, 112); 
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar{
+    margin-top: -8px;
+    color: rgb(231, 203, 196);
+    justify-content: center;
+    display: flex;
+    background-color: rgb(206, 211, 209);
+    height: 4em;
+    width: 122%;
+    margin-left: -25em;
+    position: fixed;
+    z-index: 1000;
+}
+
+.menu{
+    color: rgb(13, 14, 13);
+    padding: 1.5em;
+    transition: 0.7s;
+}
+
+.menu:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.paralax{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/papier-peint-tropical-1.jpg)
+}
+
+h1{
+    padding: 3em;
+    text-align: center;
+    font-size: 5em;
+    font-family: "luna";
+}
+
+.trombi{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#sticky-footer {
+    margin-left: -12em;
+    width: 125%;
+    flex-shrink: none;
+    color: white;
+}
